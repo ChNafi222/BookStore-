@@ -170,33 +170,8 @@ const setting = ({navigation}) => {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              {/* <View
-                style={{
-                  borderRadius: 100,
-                  marginRight: 30,
-                  marginTop:10,
-                  marginLeft:80,
-                  padding: 5,
-                  borderWidth: 1,
-                  borderColor: COLORS.primary,
-                  opacity: 1,
-                }}>
-               
-              </View> */}
-              {/* <Text style={{marginTop:10}}>1</Text>
-              <View
-                style={{
-                    marginTop:10,
-                  borderRadius: 100,
-                  marginLeft: 30,
-                  padding: 5,
-                  borderWidth: 1,
-                  borderColor: COLORS.primary,
-                  opacity: 1,
-                }}>
-                
-              </View> */}
-
+            
+             
               </View>
               </View>
 
@@ -221,39 +196,7 @@ const setting = ({navigation}) => {
       </ScrollView>
 
 
-{/* view of add to cart button */}
-      {/* <View
-        style={{
-          position: 'absolute',
-          bottom: 10,
-          height: '8%',
-          width: '100%',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}>
-        <TouchableOpacity
-           onPress={() => navigation.navigate('MyCartdetails')}
-          style={{
-            width: '86%',
-            height: '90%',
-            backgroundColor: COLORS.primary,
-            borderRadius: 20,
-            justifyContent: 'center',
-            alignItems: 'center',
-          }}>
-          <Text
-            style={{
-              fontSize: 12,
-              fontWeight: '500',
-              letterSpacing: 1,
-              color: "#F2F3F8",
-              textTransform: 'uppercase',
-              ...FONTS.h3,
-            }}>
-            CHECKOUT (Rupees 500)
-          </Text>
-        </TouchableOpacity>
-      </View> */}
+
 
 
     </View>
